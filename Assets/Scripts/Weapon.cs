@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] private Camera FPCamera;
     [SerializeField] private float range = 100f;
+    [SerializeField] private float damage = 25f;
     
     void Update()
     {
@@ -22,6 +23,17 @@ public class Weapon : MonoBehaviour
         if (intersection)
         {
             Debug.Log("You hit " + hit.transform.name);
+            // TODO: Add some hit effect for visual players
+            EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
+            if (target != null)
+            {
+                target.TakeDamage(damage);
+            }
         }
+        else
+        {
+            return;
+        }
+        
     }
 }
