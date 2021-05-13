@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    [SerializeField] private Transform target;
+    private PlayerHealth target;
     [SerializeField] private float damage = 40f;
         
     void Start()
     {
-        
+        target = FindObjectOfType<PlayerHealth>();
     }
 
     public void AttackHitEvent()
@@ -19,5 +19,6 @@ public class EnemyAttack : MonoBehaviour
             return;
         }
         Debug.Log("Bang bang");
+        target.TakeDamage(damage);
     }
 }

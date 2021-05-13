@@ -881,33 +881,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 88b5bfec6f1bd17439b2f4339902dca6, type: 3}
   m_PrefabInstance: {fileID: 1984170873}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1535906193 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 1380539497669789683, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-  m_PrefabInstance: {fileID: 901311443}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1610178868 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 957911516534028197, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-  m_PrefabInstance: {fileID: 901311443}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1610178872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610178868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a5919481439aa4383e4971312ef49a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FPCamera: {fileID: 1981079182}
-  range: 100
-  damage: 25
-  muzzleFlash: {fileID: 1535906193}
-  hitEffect: {fileID: 3121723652836787658, guid: b4bf58fc77cc1a04cb138489d0e2110d, type: 3}
 --- !u!1 &1741750261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,11 +1025,6 @@ Transform:
 --- !u!4 &1951417707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-  m_PrefabInstance: {fileID: 901311443}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &1981079182 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 901311443}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1984170873
