@@ -1338,54 +1338,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: field of view
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 957911516534028197, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298222097286001185, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: _camera
-      value: 
-      objectReference: {fileID: 2022807057}
-    - target: {fileID: 1298222097286001185, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: _fpsCamera
-      value: 
-      objectReference: {fileID: 2022807057}
-    - target: {fileID: 1298222097286001185, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: zoomedInMouseSensitvity
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1298222097286001185, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: zoomedOutMouseSensitvity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2459369860477599967, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: currentWeapon
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3326626967348490746, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: ammoAmount
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 3544798675199948966, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 2124540933}
-    - target: {fileID: 6347125699740010417, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7874317815396429009, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 7874317815396462833, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1 &1042662845
@@ -2880,11 +2836,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6216566346418403904, guid: 0ea37f2d8b725964aa2ab4c3ba73b65d, type: 3}
   m_PrefabInstance: {fileID: 1318094255}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &2022807057 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-  m_PrefabInstance: {fileID: 901311443}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2077214335
 PrefabInstance:
