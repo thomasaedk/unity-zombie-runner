@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 1451773660}
   - component: {fileID: 3544798675199948966}
   - component: {fileID: 3326626967348490746}
+  - component: {fileID: 4575430633898019316}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -350,6 +351,20 @@ MonoBehaviour:
     ammoAmount: 20
   - ammoType: 2
     ammoAmount: 8
+--- !u!114 &4575430633898019316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6419fd43c1297b648a1bb2ba5b77585f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactCanvas: {fileID: 0}
+  impactTime: 0.3
 --- !u!114 &1610178872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,6 +385,7 @@ MonoBehaviour:
   ammoSlot: {fileID: 3326626967348490746}
   _ammoType: 2
   timeBetweenShots: 1
+  ammoText: {fileID: 0}
 --- !u!1 &1057150528690419029
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +453,7 @@ MonoBehaviour:
   ammoSlot: {fileID: 3326626967348490746}
   _ammoType: 1
   timeBetweenShots: 2
+  ammoText: {fileID: 0}
 --- !u!114 &6408781466543232389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,6 +474,7 @@ MonoBehaviour:
   ammoSlot: {fileID: 3326626967348490746}
   _ammoType: 0
   timeBetweenShots: 0.2
+  ammoText: {fileID: 0}
 --- !u!1001 &147532680627723223
 PrefabInstance:
   m_ObjectHideFlags: 0
