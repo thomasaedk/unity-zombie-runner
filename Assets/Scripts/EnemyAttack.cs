@@ -18,7 +18,6 @@ public class EnemyAttack : MonoBehaviour
         {
             return;
         }
-        Debug.Log("Bang bang");
         target.TakeDamage(damage);
     }
 }

@@ -6,7 +6,6 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] private Transform target;
     [SerializeField] private float chaseRange = 5f;
     [SerializeField] private float turnSpeed = 5f;
 
@@ -15,9 +14,11 @@ public class EnemyAI : MonoBehaviour
     private bool isProvoked;
     private EnemyHealth enemyHealth;
     private CapsuleCollider capsuleCollider;
+    private Transform target;
 
     void Start()
     {
+        target = FindObjectOfType<PlayerHealth>().transform;
         navMeshAgent = GetComponent<NavMeshAgent>();
         enemyHealth = GetComponent<EnemyHealth>();
         capsuleCollider = GetComponent<CapsuleCollider>();
